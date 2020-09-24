@@ -68,24 +68,57 @@ h4 {
 
 #cover {
     position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: 100vh;
-    background: transparent;
-    color: white;
-    vertical-align: text-bottom;
-    font-size: 10vh;
-    text-align: center;
-    font-weight: normal;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 #arrow {
     position: absolute;
     left: 0;
     right: 0;
+    bottom: 0;
     margin-left: auto;
     margin-right: auto;
-    bottom: 7vh;
+    color: white;
+    font-size: 12vh;
+    text-align: center;
+    line-height: 1;
+    animation-name: arrow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+    0% {
+        color: white;
+        bottom: 0px;
+    }
+    20% {
+        opacity: 0%;
+        color: white;
+        bottom: 15px;
+    }
+    40% {
+        opacity: 100%;
+        color: white;
+        bottom: 0px;
+    }
+    60% {
+        opacity: 0%;
+        color: white;
+        bottom: 15px;
+    }
+    80% {
+        opacity: 100%;
+        color: white;
+        bottom: 0px;
+    }
+    100% {
+        color: white;
+        bottom: 0px;
+    }
 }
 
 #white {
@@ -120,3 +153,6 @@ h4 {
 #footer a:hover {
     color: blue;
 }
+
+
+/* EXPERIMENTAL */
