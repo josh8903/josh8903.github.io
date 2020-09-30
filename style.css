@@ -54,6 +54,11 @@ h4 {
     color: white;
 }
 
+#hero a:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
 #name {
     font-size: 1.9rem;
 }
