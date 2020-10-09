@@ -33,13 +33,53 @@
     color: white;
 }
 
+#heroP {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("./images/508858.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: -0.0311em;
+    color: white;
+}
+
 #name {
     font-size: 1.9rem;
+}
+
+#hero a i {
+    font-size: 2rem;
+}
+
+#heroP a i {
+    font-size: 2rem;
 }
 
 #hero a:hover {
     text-decoration: underline;
     text-decoration-color: black;
+    transition: all 1s ease-in-out;
+}
+
+#hero i:hover {
+    color: black;
+    transition: all 1s ease-in-out;
+}
+
+#heroP a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+    transition: all 1s ease-in-out;
+}
+
+#heroP i:hover {
+    color: black;
     transition: all 1s ease-in-out;
 }
 
@@ -66,12 +106,36 @@ main {
     padding-right: 10px;
 }
 
+#containerP {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    margin: auto;
+    max-width: 600px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#portfolioNav {
+    color: white;
+}
+
 #container h2 {
     font-size: 2.2rem;
     padding-top: 20px;
 }
 
 #container h3 {
+    font-size: 1.3rem;
+}
+
+#containerP h2 {
+    font-size: 2.2rem;
+    padding-top: 20px;
+}
+
+#containerP h3 {
     font-size: 1.3rem;
 }
 
@@ -126,7 +190,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     color: white;
-    font-size: 12vh;
+    font-size: 18vh;
     text-align: center;
     line-height: 1;
     animation-name: arrow;
@@ -163,4 +227,8 @@ main {
         color: white;
         bottom: 0px;
     }
+}
+
+.portfolioImg {
+    max-width: 500px;
 }
