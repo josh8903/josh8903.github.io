@@ -53,34 +53,17 @@
     font-size: 1.9rem;
 }
 
-#hero a i {
+.navbar-nav a i {
     font-size: 2rem;
 }
 
-#heroP a i {
-    font-size: 2rem;
-}
-
-#hero a:hover {
+.navbar-nav a:hover {
     text-decoration: underline;
     text-decoration-color: black;
-    transition: all 1s ease-in-out;
 }
 
-#hero i:hover {
+.navbar-nav i:hover {
     color: black;
-    transition: all 1s ease-in-out;
-}
-
-#heroP a:hover {
-    text-decoration: underline;
-    text-decoration-color: black;
-    transition: all 1s ease-in-out;
-}
-
-#heroP i:hover {
-    color: black;
-    transition: all 1s ease-in-out;
 }
 
 
@@ -93,6 +76,7 @@ main {
 }
 
 #holder {
+    background-color: black;
     height: 100vh;
 }
 
@@ -180,7 +164,204 @@ main {
 }
 
 
+/* cloud */
+
+#true {
+    color: black;
+    animation-name: storm;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: 0ms;
+}
+
+#false:hover {
+    color: black;
+}
+
+@keyframes storm {
+    0% {
+        color: black;
+    }
+    19% {
+        color: black;
+    }
+    20% {
+        color: white;
+    }
+    21% {
+        color: gray;
+    }
+    24% {
+        color: black;
+    }
+    30% {
+        color: black;
+    }
+    31% {
+        color: white;
+    }
+    32% {
+        color: gray;
+    }
+    33% {
+        color: white;
+    }
+    34% {
+        color: gray;
+    }
+    37% {
+        color: black;
+    }
+    81% {
+        color: black;
+    }
+    82% {
+        color: white;
+    }
+    83% {
+        color: gray;
+    }
+    86% {
+        color: black;
+    }
+}
+
+
 /* arrow */
+
+#thing {
+    opacity: 75%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 30vh;
+    text-align: center;
+    -webkit-animation: spin 120s linear infinite;
+    -moz-animation: spin 120s linear infinite;
+    animation: spin 120s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: .75;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: .5;
+    }
+    45% {
+        opacity: .5;
+    }
+    55% {
+        opacity: 0;
+    }
+    60% {
+        opacity: .25;
+    }
+    70% {
+        opacity: .25;
+    }
+    80% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: .75;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: .5;
+    }
+    45% {
+        opacity: .5;
+    }
+    55% {
+        opacity: 0;
+    }
+    60% {
+        opacity: .25;
+    }
+    70% {
+        opacity: .25;
+    }
+    80% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: .75;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: .5;
+    }
+    45% {
+        opacity: .5;
+    }
+    55% {
+        opacity: 0;
+    }
+    60% {
+        opacity: .25;
+    }
+    70% {
+        opacity: .25;
+    }
+    80% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
 #arrow {
     position: absolute;
