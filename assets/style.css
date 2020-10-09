@@ -171,7 +171,6 @@ main {
     animation-name: storm;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    transition: 0ms;
 }
 
 #false:hover {
@@ -411,5 +410,6 @@ main {
 }
 
 .portfolioImg {
-    max-width: 500px;
+    max-width: 390px;
+    min-width: 200px;
 }
