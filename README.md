@@ -1,5 +1,5 @@
 # josh8903.github.io
-![Screenshot](./images/screenshot.png)
+![Screenshot](./assets/images/screenshot.png)
 
 ### Welcome to my Git page!
 This is a work in progress. I will be continually updating this web page as I learn new things and expand my portfolio. I hope you will take a moment to check out my work!
